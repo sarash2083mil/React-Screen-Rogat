@@ -17,7 +17,14 @@ const DevicesTree = ({ devicesData, onDeviceSelect }) => {
         if (device.children) {
           device.children.forEach((child) => {
             updatedSelectedDevices.push(child.id);
-           handleCheckboxChange("change", isChecked, child);
+            if (child.children) {
+              child.children.forEach((c) => {
+                updatedSelectedDevices.push(c.id);
+              })
+            }
+
+
+            //  handleCheckboxChange("change", isChecked, child);
           });
         }
       } else {
@@ -30,6 +37,14 @@ const DevicesTree = ({ devicesData, onDeviceSelect }) => {
             const childIndex = updatedSelectedDevices.indexOf(child.id);
             if (childIndex !== -1) {
               updatedSelectedDevices.splice(childIndex, 1);
+            }
+            if (child.children) {
+              child.children.forEach((c) => {
+                const childIndexinside = updatedSelectedDevices.indexOf(c.id);
+                if (childIndexinside !== -1) {
+                  updatedSelectedDevices.splice(childIndexinside, 1);
+                }
+              })
             }
           });
         }
