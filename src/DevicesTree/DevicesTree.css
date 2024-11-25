@@ -1,0 +1,9 @@
+.devices-tree {
+    max-height: 50%;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border: 1px solid blue;
+    padding-left: 7px;
+}

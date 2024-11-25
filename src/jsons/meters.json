@@ -1,0 +1,102 @@
+[
+    {
+        "meterId": "12345",
+        "consumerName": "John Doe",
+        "address": "123 Main St",
+        "consumerType": "Residential",
+        "f1List": "Road Plan",
+        "f2List": "Road Dev",
+        "f3List": "Road Level",
+        "f4List": "Road Retail",
+        "actions": [
+            {
+                "icon": "edit",
+                "action": "edit"
+            },
+            {
+                "icon": "delete",
+                "action": "delete"
+            }
+        ]
+    },
+    {
+        "meterId": "23456",
+        "consumerName": "John Doe",
+        "address": "123 Main St",
+        "consumerType": "Residential",
+        "f1List": "Road Plan",
+        "f2List": "Road Dev",
+        "f3List": "Road Level",
+        "f4List": "Road Retail",
+        "actions": [
+            {
+                "icon": "edit",
+                "action": "edit"
+            },
+            {
+                "icon": "delete",
+                "action": "delete"
+            }
+        ]
+    },
+    {
+        "meterId": "34567",
+        "consumerName": "John Doe",
+        "address": "123 Main St",
+        "consumerType": "Residential",
+        "f1List": "Road Plan",
+        "f2List": "Road Dev",
+        "f3List": "Road Level",
+        "f4List": "Road Retail",
+        "actions": [
+            {
+                "icon": "edit",
+                "action": "edit"
+            },
+            {
+                "icon": "delete",
+                "action": "delete"
+            }
+        ]
+    },
+    {
+        "meterId": "45678",
+        "consumerName": "John Doe",
+        "address": "123 Main St",
+        "consumerType": "Residential",
+        "f1List": "Road Plan",
+        "f2List": "Road Dev",
+        "f3List": "Road Level",
+        "f4List": "Road Retail",
+        "actions": [
+            {
+                "icon": "edit",
+                "action": "edit"
+            },
+            {
+                "icon": "delete",
+                "action": "delete"
+            }
+        ]
+    },
+    {
+        "meterId": "56789",
+        "consumerName": "John Doe",
+        "address": "123 Main St",
+        "consumerType": "Residential",
+        "f1List": "Road Plan",
+        "f2List": "Road Dev",
+        "f3List": "Road Level",
+        "f4List": "Road Retail",
+        "actions": [
+            {
+                "icon": "edit",
+                "action": "edit"
+            },
+            {
+                "icon": "delete",
+                "action": "delete"
+            }
+        ]
+    }
+]

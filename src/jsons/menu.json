@@ -1,0 +1,55 @@
+{
+    "navigation": [
+      {
+        "label": "Dashboard",
+        "icon":  "<FaDashboard />",
+        "link": "/dashboard"
+      },
+      {
+        "label": "Devices",
+        "icon": "<FaDevices />",
+        "link": "/devices"
+     
+      },
+      {
+        "label": "Customers",
+        "icon": "<FaUsers />",
+        "link": "/customers"
+      },
+      {
+        "label": "Consumer Types",
+        "icon": "consumer-types",
+        "link": "/consumer-types"
+      },
+      {
+        "label": "Accounts",
+        "icon": "accounts",
+        "link": "/accounts"
+      },
+      {
+        "label": "Energy Balance",
+        "icon": "energy-balance",
+        "link": "/energy-balance"
+      },
+      {
+        "label": "Reports",
+        "icon": "reports",
+        "link": "/reports"
+      },
+      {
+        "label": "Graphs",
+        "icon": "graphs",
+        "link": "/graphs"
+      },
+      {
+        "label": "Settings",
+        "icon": "<MdSettings />",
+        "link": "/settings"
+      },
+      {
+        "label": "Log Out",
+        "icon": "<MdLogout />",
+        "link": "/logout"
+      }
+    ]
+  }

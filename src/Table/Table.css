@@ -1,0 +1,29 @@
+.table-container {
+  margin-top: 20px;
+  height: 50%;
+  margin-bottom: 2px;
+  margin-top: 6px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  border-radius: 5px;
+  border: 1px solid blue;
+  padding: 2px;
+  padding-left:4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }

@@ -1,0 +1,29 @@
+div.upper-nav {
+    background-color: blue;
+    color: white;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 2px;
+}
+
+.arrows-zone {
+    margin-left: 49.5vw;
+    width: 31vw;
+}
+
+.arrows-zone span {
+    margin: 2px 10px;
+}
+
+.icon-zone {
+    width: 19vw;
+}
+.icon-zone,.arrows-zone {
+    margin-top: 6px;
+}
+span {
+    cursor:pointer;
+}

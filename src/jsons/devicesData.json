@@ -1,0 +1,83 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "name": "Group 1",
+      "children": [
+        {
+          "id": 11,
+          "name": "Asset 1",
+          "children": [
+            {
+              "id": 2,
+              "name": "Device 1",
+              "meterIds": [
+                "12345",
+                "23456",
+                "34567"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Asset 2",
+          "children": [
+            {
+              "id": 3,
+              "name": "Device 2",
+              "meterIds": [
+                "45678",
+                "56789"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "other": [
+    {
+      "id": 2,
+      "name": "Group 2",
+      "children": [
+        {
+          "id": 2,
+          "name": "Asset 2",
+          "children": [
+            {
+              "id": 3,
+              "name": "Device 2",
+              "meterIds": [
+                56789,
+                111213,
+                141516
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Group 3",
+      "children": [
+        {
+          "id": 2,
+          "name": "Asset 2",
+          "children": [
+            {
+              "id": 3,
+              "name": "Device 1",
+              "meterIds": [
+                12345,
+                23456,
+                34567
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
